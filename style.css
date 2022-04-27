@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    direction: rtl;
+    position: relative;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+}
+.poetry{
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.7);
+}
+.btn{
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    color: orange;
+    background-color: aquamarine;
+    transition: all ease-in-out 0.5s;
+}
